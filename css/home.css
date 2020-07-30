@@ -1,8 +1,3 @@
-
-
-body{
-
-}
 *{
   margin: 0;
   padding: 0;
@@ -14,13 +9,13 @@ body{
 ;
 }
 #hero nav .red{
-  background-image: url(./images/coding6.png);
+  background-image: url(../images/coding6.png);
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 #hero nav .blue{
-  background-image: url(./images/bnw13.png);
+  background-image: url(../images/bnw13.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

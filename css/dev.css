@@ -248,7 +248,7 @@ justify-content: space-around;
   text-align: center;
 }
 #services .design{
-  background-image: url(./images/coding8.png);
+  background-image: url(../images/coding8.png);
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
@@ -256,14 +256,14 @@ justify-content: space-around;
   height: 717px;
 }
 #services .design2{
-  background-image: url(./images/coding7.png);
+  background-image: url(../images/coding7.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 450px;
   height: 550px;
 }
 #services .design3{
-  background-image: url(./images/coding3.png);
+  background-image: url(../images/coding3.png);
   background-size: cover;
   background-repeat: no-repeat;
   width: 450px;
