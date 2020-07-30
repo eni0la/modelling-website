@@ -126,10 +126,14 @@ header nav > button#mobile-icon {
     display: block;
   }
 }
+.wrapper {
+  border-bottom: 1px solid black;
+  overflow:auto;
+}
 
 #hero {
   height: 70vh;
-  background-image: url('./bnw6.png');
+  background-image: url('./images/bnw6.png');
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
