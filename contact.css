@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --header-height: 85px;
+  --content-padding: 12em;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --content-padding: 5em;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  :root {
+    --content-padding: 3em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  :root {
+    --content-padding: 1.8em;
+  }
+}
+
+
+html {
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin:0
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+header{
+  background: #000000;
+  color :#ffffff;
+  height: var(--header-height);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9;
+}
+
+header nav {
+  padding: 0 var(--content-padding);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav > a:first-child {
+  font-size: 2em;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li:not(:last-of-type) {
+  margin-right: 1.7em;
+}
+
+header nav ul li a { 
+  text-transform: uppercase;
+}
+
+header + * {
+  margin-top: var(--header-height);
+}
+
+header nav > button#mobile-icon {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  display: none;
+  color: white;
+}
+
+@media screen and (max-width: 750px) {
+  header nav > button#mobile-icon {
+    display: block;
+  }
+
+  header nav ul {
+    display: none;
+    position: absolute;
+    top: var(--header-height);
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    right: 10px;
+    background: #000000;
+  }
+
+  header nav ul li {
+    margin: 1.2em 0 !important;
+    display: block;
+    text-align: center;;
+  }
+
+  header nav ul.active {
+    display: block;
+  }
+}
+body{
+  font-family:'Poppins' sans-serif;
+  background-color: #ffffff;
+  
+}
+label{
+  font-weight: normal;
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-left: 12px;
+}
+#contact  {
+  margin: 0;
+  padding: 0;
+  border: 0;
+justify-content: space-around;
+}
+#submit {
+  height: 44px;
+  width: 20%;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 15px;
+}
+#contact {
+  overflow: hidden;
+  width: 100%;
+}
+.para h3 {
+  font-size: 45px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  line-height: 0px;
+}
+.para p{
+  font-size: 20px;
+  padding: 0;
+  text-align: center;
+}
+.container {
+  float: left;
+  font-size: 18px;
+  width: 50%;
+  background-color: white;
+  padding-top: 4em;
+  padding-left: 20em;
+  margin-bottom: -500em;
+}
+.container2 {
+  float: right;
+  width: 50%;
+  margin-right: -1px; 
+  padding-top: 30px;
+  background-color:white;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+#contact h3 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+}
+input[type=text], input[type=email],input[type=tel]{
+  width: 50%;
+  padding: 10px;
+  border-bottom: 1px solid #000000;
+  font-size: 1.0em;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+*:focus{
+  outline: 0;
+
+}
+  
+input[type=submit] {
+  background: #000000;
+  margin: 0 auto;
+  outline: 0 ;
+  color: #ffffff;
+  border: 1px solid black;
+  padding: 12px 24px;
+  border-radius: 4px;
+  margin-left: 230px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+}
+input[type=submit]  :focus {
+background: #000000;
+color: whitesmoke;
+}
+ .wrapper {
+  display: inline-flex;
+     justify-content: center;
+   }
+   .wrapper i {
+      padding: 5px; 
+      font-size: 25px;
+      transition: all ease-in-out 150ms;
+      margin-right: 10px;
+      right: 10px;
+      }
+   .wrapper a:nth-child(3) {
+   color: #ffffff;
+  }
+   .wrapper a:nth-child(2) { 
+ color: #ffffff;
+  }
+   .wrapper a:nth-child(1) { 
+      color: #ffffff;
+  }
+   .wrapper i:hover {
+    margin-top: -3px; 
+   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    } 

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./booking.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width = device-width">
+  </head>
+    <body>
+      <header>
+        <nav>
+          <a href="home.html" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px;"  >
+            ENIOLA. 
+          </a>
+
+          <button id="mobile-icon">
+            &#9776;
+          </button>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="booking.html">BOOKING</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <div class="wrapper">  
+            <a target="_blank" href=" http://www.instagram.com/e_niola"><i class="fa fa-3x fa-instagram"></i></a>   
+           <a target="_blank" href=" http://www.facebook.com"><i class="fa fa-3x fa-facebook-f"></i></a>    <a target="_blank" href=" http://www.twitter.com"><i class="fa fa-3x fa-twitter"></i> </div></a> 
+        </nav>
+      </header>
+
+      <!-- #F6E3F7 -->
+      <section id="bookme">
+        <div class="container">
+          <h3>BOOK ME</h3>
+          <form action="#" name="bookme">
+          <label for="text">What's the job?</label> <br>
+        <input type="text" id="answer" name="name" placeholder="e.g. Editorial shoot for new beachwear">
+        <br>
+    <label for="text">Who's it for?</label> <br>
+  <input type="text" id="text" placeholder="e.g. Brand name"> 
+  <br>
+    <label for="date">Date </label> <br>
+    <input type="date" id="birthday" name="birthday">
+    <br> 
+  <label for="message">Tell us a bit about the job</label> <br>
+<textarea id="message" name="message" cols="30" rows="10" placeholder="What is the concept of the shoot? Any special requirements?">
+</textarea>
+<div class="center">
+<button><a href="next.html">Next</a></button>
+</div>
+</form>
+</div>
+      </section>
+      <script>
+        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+          event.preventDefault();
+          document.querySelector('header nav ul').classList.toggle("active");
+        });
+      </script>
+      <footer>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> <div class="wrapper">  
+            <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-instagram"></i></a>   
+           <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-facebook-square"></i></a>    <a target="_blank" href="your_url_here"><i class="fa fa-3x fa-twitter-square"></i> </div></a> 
+      </footer>
+    </body>
+    </html>

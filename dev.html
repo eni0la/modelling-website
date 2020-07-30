@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="./dev.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="home.html" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px;"  >
+          ENIOLA. 
+        </a>
+        
+          <button id="mobile-icon">
+            &#9776;
+          </button>
+          
+          <ul>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></>
+            
+            <li ><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </header>
+        <section id="code">
+          <div class="img"><img src="./coding6.png">
+          <div class="cont">
+          <p>Hi, I'm Eniola. I design and build <br>user interfaces.</p>
+          <button id="button1"><a href="#contact">I need a website</a><i class="arrow right"></i></button>
+          <button id="button2"><a href="#contact">I am looking to hire</a><i class="arrow right"></i></button>
+            </div>
+            </div>
+      
+      <!-- #F6E3F7 -->
+      <section id="services">
+        <div class="design">
+          <i class="fa fa-code" aria-hidden="true"></i>
+          <h4>WEBSITE DESIGN</h4>
+<p>Clean, unique, modern designs- optimized <br> for performance and converting <br>users to customers.  for performance and converting .</p>
+        </div>
+        <div class="design2">
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          <h4>MOBILE FRIENDLY</h4>
+          <p>A responsive design makes your  website <br>accesssible to all users, regardless <br>of their device.  for performance and converting .</p>
+        </div>
+        <div class="design3">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+          <h4>CONTENT MANAGEMENT</h4>
+          <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Distinctio reiciendis, ad <br>pariatur ullam solution. for performance and converting . </p>
+        </div>
+        
+      </section>
+
+      <div class="para">
+        <h3>CONTACT ME</h3>
+        <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
+        </div>
+        <section id="contact">
+            <div class="container">
+              <p>E-MAIL: <br>
+            boluwatifearowoshere@gmail.com <br> <br>
+            TELEPHONE: <br>
+            07061054638<p>
+  
+            </div>
+            <div class="container2">
+            <form action="#" name="contact form">
+            <label for="name">Name</label> <br>
+          <input type="text" id="name" name="name" placeholder="Full Name">
+          <br>
+      <label for="email">Email</label> <br>
+    <input type="email" id="email" placeholder="Email"> 
+    <br>
+    <label for="phone-number">Phone</label> <br>
+    <input type="tel" id="phone" placeholder="Phone"> 
+    <br>
+    <form action="#" name="contact form">
+      <label for="name">Message</label> <br>
+    <input type="text" id="name" name="name" placeholder="Message">
+   <br>
+  <input type="submit" value="Submit" id="submit">
+   </form>
+  </div>
+        </section>
+  
+          <div class="foot">
+            <footer> Copyright &copy; 2020 Eniola Arowoshere</footer>
+
+          </div>
+    
+      <script>
+        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+          event.preventDefault();
+          document.querySelector('header nav ul').classList.toggle("active");
+        });
+        
+
+      </script>
+    </body>
+    </html>

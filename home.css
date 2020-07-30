@@ -1,0 +1,76 @@
+
+
+body{
+
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+}
+#hero nav{
+  display: flex;
+  height: 100vh;
+;
+}
+#hero nav .red{
+  background-image: url(./coding6.png);
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero nav .blue{
+  background-image: url(./bnw13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+#hero nav .red h4{
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  font-size: 60px;
+  padding-top: 300px;
+
+}
+#hero nav .blue h4{
+  text-decoration: none;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 350px;
+  font-size: 50px;
+}
+  #hero nav .red button{
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 280px;
+  border: 1px solid black;
+ border-radius: 40px;
+  margin-top: 25px;
+  background-color: #000000;
+  padding: 10px 20px 10px 20px;
+  
+}
+#hero nav .red button a{
+  color: #ffffff;
+  text-decoration: none;
+  
+}
+#hero nav .blue button{
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 280px;
+  border: 1px solid black;
+ border-radius: 40px;
+  margin-top: 25px;
+  background-color: #000000;
+  padding: 10px 20px 10px 20px;
+  
+}
+#hero nav .blue button a{
+  color: #ffffff;
+  text-decoration: none;
+  
+}
