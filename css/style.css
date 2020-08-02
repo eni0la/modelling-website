@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {ccd
   :root {
     --content-padding: 3em;
   }
@@ -133,7 +133,7 @@ header nav > button#mobile-icon {
 
 #hero {
   height: 70vh;
-  background-image: url('./images/bnw6.png');
+  background-image:url(./../images/bnw6.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
