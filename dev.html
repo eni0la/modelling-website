@@ -11,7 +11,7 @@
 <body>
   <header>
     <nav>
-        <a href="home.html" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 25px;"  >
+        <a href="home.html" >
           ENIOLA. 
         </a>
         
@@ -20,69 +20,82 @@
           </button>
           
           <ul>
-            <li><a href="#hero" style="scroll-behavior: smooth;">About</a></li>
-            <li><a href="#hero">Works</a></li>
-            
+            <li><a href="#hero">About</a></li>
+            <li><a href="#hero">Work</a></li>
             <li ><a href="#contact">Contact</a></li>
           </ul>
         </nav>
   </header>
-        <section id="code">
-          <div class="image">
-        <div class="text1">
-          <h5>Hi, my name is</h5>
-        </div>
-        <div class="text">
-          <h2>Eniola Arowoshere.</h2>
-          <h4>I build user interfaces.</h4>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing <br> elit. Ipsa nostrum, ad doloribus, fuga fugiat animi ut <br>ipsum, iusto corrcumque provident.</p>
-          <button id="btn">Get In Touch</button>
-        </div>
-      </div>
+
+  <main>
+
+  <section id="hero">
+    <p>Hello! 👋 </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa nostrum, ad doloribus, fuga fugiat animi ut ipsum, iusto corrcumque provident.
+      </p>
+      <div class="touch">
+      <p>
+        Get in touch 👉 <a href="boluwatifearowoshere@gmail.com">boluwatifearowoshere@gmail.com</a>
+      </p> </div>
     </section>
     
     <!-- #F6E3F7 -->
-    <section id="hero">
-      <div class="hero-content">
-        <h2>ABOUT ME </h2>
-        <img src="./images/bolu333.png">
-     
-      </div>
-      <div class="hero-content2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Reiciendis autem, vero aspernatur quidem commodi nulla <br> sunt explicabo qui odit, possimus impedit voluptatem laborum <br>vitae corporis? Dicta hic ipsum sunt cum. <br> <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure <br> deleniti veniam, sequi voluptate soluta animi ut deserunt, nostrum <br> nihil itaque necessitatibus voluptas dolor ea libero temporibus max <br>quisquam laborum.
-        <br> <br> 
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Doloribus aperiam voluptates corporis, exercitationem mollitia <br>quos eligendi qui similique quia labore beatae quas non, quaerat <br>obcaecati nesciunt est tempore laudantium ut.</p>
+    <section id="about">
+      <p>ABOUT ME </p>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.Reiciendis autem, vero aspernatur quidem commodi nulla sunt explicabo qui odit, possimus impedit voluptatem laborum vitae corporis? Dicta hic ipsum sunt cum.
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure deleniti veniam, sequi voluptate soluta animi ut deserunt, nostrum nihil itaque necessitatibus voluptas dolor ea libero temporibus max quisquam laborum.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus aperiam voluptates corporis, exercitationem mollitia quos eligendi qui similique quia labore beatae quas non, quaerat obcaecati nesciunt est tempore laudantium ut.
+        </p>
       </div>
     </section>
    
-    <section id="skill">
-    <div class="skills">
-      <h2>SKILLS</h2>
-      <i class="fa fa-html5" aria-hidden="true"><h3>HTML5</h3></i>
-      <i class="fa fa-css3" aria-hidden="true"><h3>CSS3</h3></i>
-      <i class="devicon-javascript-plain"><h3>
-        JAVASCRIPT</h3></i>
-      <i class="devicon-react-original"><h3>REACT</h3></i>
-      <i class="devicon-visualstudio-plain"><h3>VISUAL STUDIO</h3></i>
-      <i class="devicon-git-plain"><h3>GIT</h3></i>
-    </div>
-    </section><br>
-    <br>
-    <br>
+    <section id="skills">
+     <ul>
+        <li>
+          <i class="fa fa-html5" aria-hidden="true"></i><h4>HTML5</h4>
+        </li>
+        <li>
+          <i class="fa fa-css3" aria-hidden="true"></i><h4>CSS3</h4>
+        </li>
+        <li>
+          <i class="devicon-javascript-plain"></i><h4>
+            JAVASCRIPT</h4>
+        </li>
+        <li>
+          <i class="devicon-react-original"></i><h4>REACT</h4>
+        </li>
+        <li>
+          <i class="devicon-visualstudio-plain"></i><h4>VISUAL STUDIO</h4>
+        </li>
+        <li>
+          <i class="devicon-git-plain"></i><h4>GIT</h4>
+        </li>
+     </ul>
+    </section>
 
-      <section id="contactp">
-      <div class="para">
+      <section id="contact">
+      <div class="contactme">
         <h3><span> CONTACT ME </span></h3>
-        <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me...</p>
+        <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me.</p>
         </div>
-        <section id="contact">
-          <div class="container">
-            <i class="devicon-linkedin-plain"></i>
-            <i class="devicon-github-plain"></i>
-            <button id="btn2"><a href="">Say Hello</a></button>
-  </div>
-        </section>
-    
+        <div class= "hello">
+          <p>
+            Get in touch 👉 <a href="boluwatifearowoshere@gmail.com">boluwatifearowoshere@gmail.com</a>
+          </p> 
+          <i class="devicon-linkedin-plain"></i>
+          <i class="devicon-github-plain"></i>
+          <i class="devicon-twitter-plain"></i>
+        </div>
+      </div>
+      </section>
+      </main>
       <script>
         document.querySelector("#mobile-icon").addEventListener("click", function(event) {
           event.preventDefault();

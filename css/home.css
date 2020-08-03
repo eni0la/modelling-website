@@ -3,69 +3,47 @@
   padding: 0;
   box-sizing: border-box ;
 }
-#hero nav{
-  display: flex;
-  height: 100vh;
-;
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
 }
-#hero nav .red{
-  background-image: url(../images/coding6.png);
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#hero nav .blue{
-  background-image: url(../images/bnw13.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-#hero nav .red h4{
-  text-decoration: none;
-  text-align: center;
-  color: #ffffff;
-  font-size: 60px;
-  padding-top: 300px;
 
-}
-#hero nav .blue h4{
-  text-decoration: none;
+#hero .main{
+  position: relative;
+  background-image: url(../images/nature2.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   color: #ffffff;
-  padding-top: 350px;
-  font-size: 50px;
 }
-  #hero nav .red button{
-  text-decoration: none;
+#hero .welcome h4{
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 40%;
+  transform:translateY(-50%) ;
+  text-shadow: 0 5px 10px rgba(0, 0, 0,1);
+  mix-blend-mode:overlay ;
+  text-align: center;
+  left: 350px;
+  font-size: 5em;
+  text-transform: uppercase;
+        color: #ffffff;
+}
+#hero .btn button{
+  position: relative;
+  margin-top: 30%;
+  padding: 15px 15px 15px 15px;
   font-size: 20px;
-  text-align: center;
-  margin-left: 280px;
-  border: 1px solid black;
- border-radius: 40px;
-  margin-top: 25px;
-  background-color: #000000;
-  padding: 10px 20px 10px 20px;
+  background-color: tomato;
   
 }
-#hero nav .red button a{
-  color: #ffffff;
-  text-decoration: none;
+#hero .btn{
+  display: flex;
+  justify-content: space-evenly;
+  text-shadow: 0 5px 10px rgba(0, 0, 0,1);
   
-}
-#hero nav .blue button{
-  text-decoration: none;
-  font-size: 20px;
-  text-align: center;
-  margin-left: 280px;
-  border: 1px solid black;
- border-radius: 40px;
-  margin-top: 25px;
-  background-color: #000000;
-  padding: 10px 20px 10px 20px;
-  
-}
-#hero nav .blue button a{
-  color: #ffffff;
-  text-decoration: none;
   
 }

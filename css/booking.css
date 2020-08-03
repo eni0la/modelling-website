@@ -145,13 +145,27 @@ button {
   font-size: 15px;
 
 }
-#bookme h3{
-  font-size: 40px;
+ h3{
+  font-size: 50px;
+  margin-bottom: -15px;
+}
+#bookme {
+  display: flex;
+  justify-content: space-around;
+}
+#bookme .center img{
+  height: 450px;
+  margin-right: 140px;
+  margin-top: 30px;
+}
+.container{
+  padding-top: 30px;
+  text-align: center;
 }
 
 input[type=text],input[type=date],textarea{
   width: 50%;
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #000000;
   border-radius: 4px;
   border-top: hidden;
@@ -159,18 +173,10 @@ input[type=text],input[type=date],textarea{
   border-right: hidden;
   box-sizing: border-box;
   font-size: 1.0em;
-  margin-top: 6px;
-  margin-bottom: 16px;
   resize: vertical;
 }
 *:focus{
   outline: 0;
-}
-.container{
-  padding: 12px 24px 24px 24px;
-  margin: 48px 12px;
-  border-radius: 4px;
-  text-align: left;
 }
 input[type=text]:focus, input[type=submit]:focus, input[type=date]:focus, textarea:focus {
   border: 1px solid black;

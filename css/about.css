@@ -130,7 +130,7 @@ header nav > button#mobile-icon {
 }
 #stats h4 {
   font-family: 'Poppins' sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 50px;
   padding-bottom: 20px;
   text-align: left;
@@ -145,9 +145,9 @@ line-height: 2.0;
 }
 #stats ul h2 {
   font-family: 'Poppins' sans-serif;
-  font-size: 30px;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   text-align: left;
   font-weight: lighter;
 }
