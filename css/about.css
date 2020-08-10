@@ -27,11 +27,15 @@ html {
 }
 
 body{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 300px;
+  margin-top: 22em;
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  padding: 0;
-  margin:0;
   background-color: #ffffff;
 }
 
@@ -120,55 +124,40 @@ header nav > button#mobile-icon {
     display: block;
   }
 }
+.parallax {
+  /* The image used */
+  background-image: url(../images/new3.jpg);
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  margin-top: -17em;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+.scroll
+{
+  height:600px;
+}
+.scroll h4
+{
+  font-size: 4em;
+  margin-bottom: 0.3em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
+}
+.scroll p
+{
+font-size: 1.0em;
+line-height: 1.5;
+text-align: center;
+font-weight: normal;
+}
 *{
   box-sizing: border-box;
   margin: 0;
 }
-#stats img{
-  height: 85vh;
-
-}
-#stats h4 {
-  font-family: 'Poppins' sans-serif;
-  font-size: 40px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  text-align: left;
-  margin-left: 90px;
-  font-weight: lighter;
-}
-#stats p {
-padding-left: 90px;
-justify-content: right;
-text-align: left;
-line-height: 2.0;
-}
-#stats ul h2 {
-  font-family: 'Poppins' sans-serif;
-  font-size: 40px;
-  padding-top: 30px;
-  padding-bottom: 10px;
-  text-align: left;
-  font-weight: lighter;
-}
-
-.container1  ul{
-font-size: 15px;
-margin-top: auto;
-text-align: left;
-font-size: 15px;
-margin-left: 60px;
-margin-bottom: auto;
-list-style: none;
-line-height: 2.0;
-}
-
-
-body { 
-  text-align: center;
-
-
- }
   .wrapper {
 display: inline-flex;
   justify-content: center;

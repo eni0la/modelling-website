@@ -133,11 +133,11 @@ header nav > button#mobile-icon {
 
 #hero {
   height: 70vh;
-  background-image:url(./../images/bnw6.png);
+  background-image:url(./../images/new2.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  height: 600px;
+  height: 750px;
   background-color: #ffffff;
   position: relative;
   text-align: left;
@@ -156,7 +156,7 @@ header nav > button#mobile-icon {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: .7em;
-  color: #000
+  color: #ffffff;
 }
 
 #hero .hero__content h1 {
@@ -165,11 +165,13 @@ header nav > button#mobile-icon {
   line-height: 1em; 
   margin: 0;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 #hero .hero__content p {
   font-size: 1.3em;
   margin: 1.4em 0 1.2em;
+  color: #ffffff;
 }
 
 #hero .hero__content button {
