@@ -31,6 +31,7 @@ html {
 body{
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  overflow-x: hidden;
   line-height: 1.5;
   padding: 0;
   margin:0;
@@ -152,10 +153,14 @@ header nav > button#mobile-icon {
   position: relative;
   text-align: left;
 }
+@media screen and (min-width: 250px) {
+  #hero {
+    text-align: left;
+  }
 
 #hero .hero__content {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 0;
   padding-left: calc(var(--content-padding) + 1em);
   transform: translateY(-50%);
@@ -309,7 +314,7 @@ footer {
   }
   footer .wrapper h4 {
     color: white;
-    font-family: wfont_e1c78c_39b8ab006063425;
+    font-family: 'Poppins', sans-serif;
     font-size: 52px;
     margin-bottom: -0.3em;
    margin-top: 0em;
@@ -321,7 +326,7 @@ footer {
     padding-top: 10px;
     padding-bottom: 30px;
     margin-top: 13px;
-    font-family: wfont_e1c78c_39b8ab006063425;
+    font-family: 'Poppins', sans-serif;
   }
   .wrapper i {
      padding: 5px; 
@@ -342,4 +347,4 @@ color: #ffffff;
  }
   .wrapper i:hover {
   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
-   } 
+  }

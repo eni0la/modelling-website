@@ -28,7 +28,7 @@ html {
 }
 
 body{
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   background-color: #0a192f;
   line-height: 1.75;
@@ -60,6 +60,7 @@ header nav {
 
 header nav > a:first-child {
   font-size: 1.7em;
+   font-family:  avenir-lt-w0l_85-heavy1475544, sans-serif;
   color: #64f1a8;
 }
 
@@ -168,6 +169,7 @@ justify-self: center;
 
 #about {
   display: grid;
+
   grid-template-columns: minmax(120px, 150px) 1fr;
   align-items: flex-start;
   width: 80vw;
@@ -175,13 +177,15 @@ justify-self: center;
 }
 
 #about  p {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  color: white;
   margin: 0;
 }
 
 #about .content p {
   margin: 0;
   font-size: 1.1em;
+  color: white;
   margin-bottom: 1em;
 }
 

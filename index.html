@@ -37,14 +37,6 @@
           document.getElementById("mySidenav").style.width = "0";
         }
         </script>
-      <script>
-        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
-          event.preventDefault();
-          document.querySelector('header nav ul').classList.toggle("active");
-        });
-        
-
-      </script>
       
       <!-- #F6E3F7 -->
 
@@ -81,8 +73,12 @@
           </div>
   </div>
 
-  <script src="./js/main.js"></script>
-
+  <script>
+    document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+      event.preventDefault();
+      document.querySelector('header nav ul').classList.toggle("active");
+    });
+  </script>
 </footer>
     </body>
     </html>
