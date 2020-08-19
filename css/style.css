@@ -54,19 +54,7 @@ header{
   width: 100%;
   height: var(--header-height);
   z-index: 9;
-  /* transition: 2s ease-in-out; */
 }
-/* 
-header.hidden {
-  transform: translateY(-90px);
-}
-
-header.fixed {
-  transform: translateY(0);
-  position: fixed;
-  top: 0;
-  left: 0;
-} */
 
 header nav {
   padding: 0 var(--content-padding);
