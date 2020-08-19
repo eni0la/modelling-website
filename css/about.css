@@ -86,6 +86,7 @@ header + * {
 
 header nav > button#mobile-icon {
   cursor: pointer;
+  outline: none;
   background: transparent;
   border: none;
   font-size: 1.5em;
@@ -118,6 +119,50 @@ header nav > button#mobile-icon {
   header nav ul.active {
     display: block;
   }
+}
+ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 5px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 5px 5px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
 }
  .scroll {
   position: relative;
@@ -189,6 +234,10 @@ font-weight: normal;
       padding-bottom: 30px;
       margin-top: 13px;
       font-family: 'Poppins', sans-serif;
+    }
+    .wrapper a:hover:after { 
+      width: 0; 
+      left: 0; 
     }
      .wrapper i {
         padding: 10px; 

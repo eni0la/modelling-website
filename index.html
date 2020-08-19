@@ -24,22 +24,21 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
-      <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-        </script>
-      
-      <!-- #F6E3F7 -->
 
+      <script>
+        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+          event.preventDefault();
+          document.querySelector('header nav ul').classList.toggle("active");
+        });
+        
+    
+      </script>
+      <!-- #F6E3F7 -->
+<main>
       <section id="hero">
         
         <div class="hero__content">
@@ -72,13 +71,22 @@
            &copy;  2020 Eniola Arowoshere
           </div>
   </div>
-
-  <script>
-    document.querySelector("#mobile-icon").addEventListener("click", function(event) {
-      event.preventDefault();
-      document.querySelector('header nav ul').classList.toggle("active");
-    });
-  </script>
+</main>
 </footer>
+  
+<script src="./js/main.js"></script>
+<script>
+  document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelector('header nav ul').classList.toggle("active");
+  });
+</script>
+      <script>
+        document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+          event.preventDefault();
+          document.querySelector('header nav ul').classList.toggle("active");
+        });
+      </script>
+        
     </body>
     </html>

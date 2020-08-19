@@ -30,7 +30,7 @@ html {
 
 body{
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
@@ -91,6 +91,7 @@ header nav > button#mobile-icon {
   cursor: pointer;
   background: transparent;
   border: none;
+  outline: none;
   font-size: 2.5em;
   display: none;
   color: black;
@@ -127,10 +128,53 @@ main
 {
   margin-top: var(--header-height) 
 }
+nav ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+nav li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 5px 0;
+}
+a {
+  color: #000000;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 5px 5px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #000000;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
 
 #hero
 {
-  width: 84vw;
+  display: flex;
   margin: 0 auto;
   padding: 9em 0;
   text-align: left;
@@ -139,13 +183,28 @@ main
   padding-left: calc(var(--content-padding) + 1em);
   transform: translateY(-10%);
 }
+#touch a:hover:after { 
+  width: 0; 
+  left: 0; 
+}
+.hello a:hover:after { 
+  width: 0; 
+  left: 0; 
+}
 #hero .thumb1 img{
-  width: 250px;
+  width: 270px;
+  margin-left: 5em;
+  margin-top: 18%;
 
+}
+#hero .text {
+  width: 40vw;
 }
 #hero h4 {
   font-size: 3.2em;
-  margin-bottom: -0.2em;
+  font-weight: bolder;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
 }
 
 #hero p
@@ -155,9 +214,10 @@ main
   font-size: 1.2em;
   font-weight: lighter;
 }
- #hero .touch p 
+ #touch a 
 {
 font-size: 1.4em;
+letter-spacing: 2px;
 color: black;
 }
 
@@ -205,19 +265,8 @@ justify-self: center;
   margin-top: .3em;
 }
 
-#contactp #btn2{
-  padding : 15px 20px 15px 20px;
-  color: #000000;
-  margin-bottom: 20px;
-  top: 0;
-  background-color: #ffffff;
-  border-color: #64f1a8;
-  font-size: 16px;
-}
-
 #about {
   display: grid;
-
   grid-template-columns: minmax(120px, 150px) 1fr;
   align-items: flex-start;
   width: 70vw;
@@ -226,13 +275,15 @@ justify-self: center;
 
 #about  p {
   font-size: 1.4em;
+  font-weight: bold;
   color: black;
   margin: 0;
 }
 
 #about .content p {
   margin: 0;
-  font-size: 1.1em;
+  font-weight: normal;
+  font-size: 1.2em;
   color: black;
   margin-bottom: 1em;
 }
@@ -247,13 +298,16 @@ justify-self: center;
 #contact h3
 {
   font-size: 2.5em;
-  margin-bottom: -0.1em;
+  margin-bottom: 0.5em;
 }
 
 #contact p 
 {
   font-size: 1.2em;
   margin-top: -0.3em;
+}
+#contact .hello a{
+  letter-spacing: 2px;
 }
 
 #contact a

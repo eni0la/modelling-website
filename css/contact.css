@@ -122,16 +122,61 @@ header nav > button#mobile-icon {
     display: block;
   }
 }
+ul { 
+  margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center;
+}
+li { 
+  display: table-cell; 
+  position: relative; 
+  padding: 5px 0;
+}
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 5px 5px;
+  position: relative;
+}
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
 label{
   font-size: 1.2em;
   font-weight: normal;
   margin-left: 12px;
 }
 #submit {
-  height: 44px;
+  height: 3em;
   width: 20%;
   color: #ffffff;
   border-radius: 10px;
+  text-align: center;
   font-size: 15px;
 }
  #contact .container1 img  {
@@ -144,8 +189,19 @@ display: flex;
 margin: 0;
 padding-top: 2em;
 border: 0;
--ms-flex-wrap: wrap;
 justify-content: space-between;
+}
+@media screen and (max-width: 1200px) {
+  #contact {
+    display: grid;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #contact .container2 {
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 4em;
+  }
 }
  h3 {
   font-size: 3em;
@@ -191,7 +247,6 @@ input[type=submit] {
   outline: 0 ;
   color: #ffffff;
   border: 1px solid black;
-  padding: 12px 24px;
   border-radius: 4px;
   transition: all ease-in-out 0.1s;
   position: relative;
@@ -202,7 +257,7 @@ background: #000000;
 color: whitesmoke;
 }
 footer {
-  margin-top: 45em;
+  margin-top: 10em;
   position: absolute;
   width: 100vw;
   
@@ -236,6 +291,10 @@ footer {
       transition: all ease-in-out 150ms;
       margin-right: 10px;
       right: 10px;
+      }
+      .wrapper a:hover:after { 
+        width: 0; 
+        left: 0; 
       }
    .wrapper a:nth-child(3) {
    color: #ffffff;

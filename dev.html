@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="HandheldFriendly" content="true">
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/dev.css">
 <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
@@ -20,21 +21,12 @@
           </button>
           
           <ul>
-            <li><a href="#hero">About</a></li>
-            <li><a href="#skills">Work</a></li>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li ><a href="#contact">Contact</a></li>
           </ul>
         </nav>
   </header>
-  <script>
-    function openNav() {
-      document.getElementById("mySidenav").style.width = "250px";
-    }
-    
-    function closeNav() {
-      document.getElementById("mySidenav").style.width = "0";
-    }
-    </script>
   <script>
     document.querySelector("#mobile-icon").addEventListener("click", function(event) {
       event.preventDefault();
@@ -47,15 +39,18 @@
   <main>
 
   <section id="hero">
+    <div class="text">
     <h4>Frontend <br>
     Developer </h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur, <br>adipisicing elit. Ipsa nostrum, ad doloribus,<br> fuga fugiat animi ut ipsum, iusto corrc <br>provident. Lorem ipsum dolor, sit amet consec<br>adipisicing elit. Quae molestiae saepe itaque harum.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> nostrum, ad doloribus, fuga fugiat animi ut ipsum, iusto <br>provident. Lorem ipsum dolor, sit amet consec<br>adipisicing elit.Quae molestiae saepe itaque harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias at libero facere 
       </p>
-      <div class="touch">
-      <p>
+      <p id="touch">
         Get in touch 👉 <a href="boluwatifearowoshere@gmail.com">boluwatifearowoshere@gmail.com</a>
       </p> </div>
+      <div class="thumb1">
+        <img src="./images/bolu3.png">
+      </div>
     </section>
     
     <!-- #F6E3F7 -->
@@ -100,7 +95,7 @@
 
       <section id="contact">
       <div class="contactme">
-        <h3><span> Let's build something together</span></h3>
+        <h3><span> CONTACT ME.</span></h3>
         <p>Want to get in touch? I'd love to hear from you. Here's how you can reach me.</p>
         </div>
         <div class= "hello">
@@ -114,13 +109,21 @@
       </div>
       </section>
       </main>
+      <script src="./js/main.js"></script>
+<script>
+  document.querySelector("#mobile-icon").addEventListener("click", function(event) {
+    event.preventDefault();
+    document.querySelector('header nav ul').classList.toggle("active");
+  });
+</script>
       <script>
         document.querySelector("#mobile-icon").addEventListener("click", function(event) {
           event.preventDefault();
           document.querySelector('header nav ul').classList.toggle("active");
         });
+      </script>
         
 
-      </script>
+      
     </body>
     </html>
