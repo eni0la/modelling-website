@@ -139,10 +139,11 @@ main
 {
   display: flex;
   margin: 0 auto;
-  padding: 9em 0;
+  padding: 5em 0;
   text-align: left;
   width: 80vw;
   top: 40%;
+  margin-top: -2em;
   left: 0;
   padding-left: calc(var(--content-padding) + 1em);
   transform: translateY(-10%);
@@ -244,7 +245,7 @@ justify-self: center;
 
 #about .content p {
   margin: 0;
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 1.2em;
   color: black;
   margin-bottom: 1em;
