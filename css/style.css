@@ -34,6 +34,7 @@ body{
   overflow-x: hidden;
   line-height: 1.5;
   padding: 0;
+  width: 100vw;
   margin:0;
 }
 a {
@@ -66,6 +67,7 @@ header nav {
 
 header nav > a:first-child {
   font-size: 2em;
+  letter-spacing: 0.1em;
 }
 
 header nav ul {
@@ -126,51 +128,6 @@ header nav > button#mobile-icon {
     display: block;
   }
 }
-ul { 
-  margin: 150px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: center;
-}
-li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 15px 0;
-}
-a {
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  
-  display: inline-block;
-  padding: 15px 20px;
-  position: relative;
-}
-a:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-a:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-@media screen and (max-height: 300px) {
-  ul {
-    margin-top: 40px;
-	}
-}
-
 
 #hero {
   background-image:url(./../images/new2.jpg);
@@ -182,10 +139,8 @@ a:hover:after {
   position: relative;
   text-align: left;
 }
-@media screen and (min-width: 250px) {
-  #hero {
-    text-align: left;
-  }
+
+
   
   #hero .hero__content {
     position: absolute;
@@ -193,6 +148,11 @@ a:hover:after {
     left: 0;
     padding-left: calc(var(--content-padding) + 1em);
     transform: translateY(-50%);
+  }
+  @media screen and (max-width: 750px) {
+ #hero .hero__content {
+      padding-left: -3em;
+    }
   }
   
   #hero .hero__content h3 {
@@ -220,6 +180,7 @@ a:hover:after {
 
 #hero .hero__content button {
   cursor: pointer;
+  font-family: 'Roboto', sans-serif;
   height: 48px;
   padding: 0 3em;
   color: #000000;
@@ -332,34 +293,25 @@ a:hover:after {
   text-align: center;
 }
 footer {
-  margin-top: 5em;
-}
-
-footer .wrapper {
-  text-align: center;
-  background-color: black;
-  padding-top: 30px;
+  margin-top: 10em;
+  position: absolute;
+  width: 100vw;
   
 }
-footer .wrapper h4 {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  font-size: 52px;
-  margin-bottom: -0.3em;
-  margin-top: 0em;
-}
-      .wrapper {
-      border-bottom: 1px solid black;
-      overflow:auto;
-      font-size: 10px;
-      text-decoration: none;
-      display: grid;
-     }
-     .wrapper a:hover:after { 
-      width: 0; 
-      left: 0; 
-    }
-    
+
+    .wrapper {
+    text-align: center;
+    background-color: black;
+    padding-top: 30px;
+  
+  }
+  footer .wrapper h4 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    margin-bottom: -0.3em;
+   margin-top: 0em;
+  }
   footer .copy{
     color: #ffffff;
     text-align: center;
@@ -369,23 +321,27 @@ footer .wrapper h4 {
     margin-top: 13px;
     font-family: 'Poppins', sans-serif;
   }
-  footer.wrapper i {
-     padding: 5px; 
-     font-size: 5px;
-     margin-top: 10px;
-     transition: all ease-in-out 150ms;
-     margin-right: 10px;
-     right: 10px;
-     }
-  .wrapper a:nth-child(3) {
-  color: #ffffff;
- }
-  .wrapper a:nth-child(2) { 
-color: #ffffff;
- }
-  .wrapper a:nth-child(1) { 
-     color: #ffffff;
- }
-  .wrapper i:hover {
-  text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+   .wrapper i {
+      padding: 10px; 
+      font-size: 25px;
+      transition: all ease-in-out 150ms;
+      margin-right: 10px;
+      right: 10px;
+      }
+      .wrapper a:hover:after { 
+        width: 0; 
+        left: 0; 
+      }
+   .wrapper a:nth-child(3) {
+   color: #ffffff;
   }
+   .wrapper a:nth-child(2) { 
+ color: #ffffff;
+  }
+   .wrapper a:nth-child(1) { 
+      color: #ffffff;
+  }
+   .wrapper i:hover {
+    margin-top: -3px; 
+   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+    } 

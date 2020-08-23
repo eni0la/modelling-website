@@ -43,10 +43,14 @@ a {
 
 
 header{
-  background: transparent;
+  background: #ffffff;
   color :#ffffff;
   height: var(--header-height);
   position: fixed;
+  border: 1px solid black;
+  border-top: hidden;
+  border-left: hidden;
+border-right: hidden;
   width: 100%;
   top: 0;
   left: 0;
@@ -63,6 +67,8 @@ header nav {
 
 header nav > a:first-child {
   font-size: 1.8em;
+  letter-spacing: 0.1em;
+  font-family: 'Poppins', sans-serif;
 }
 
 header nav ul {
@@ -128,49 +134,6 @@ main
 {
   margin-top: var(--header-height) 
 }
-nav ul { 
-  margin: 150px auto 0; 
-  padding: 0; 
-  list-style: none; 
-  display: table;
-  width: 600px;
-  text-align: center;
-}
-nav li { 
-  display: table-cell; 
-  position: relative; 
-  padding: 5px 0;
-}
-a {
-  color: #000000;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  
-  display: inline-block;
-  padding: 5px 5px;
-  position: relative;
-}
-a:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #000000;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-a:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
-@media screen and (max-height: 300px) {
-	ul {
-		margin-top: 40px;
-	}
-}
 
 #hero
 {
@@ -178,30 +141,23 @@ a:hover:after {
   margin: 0 auto;
   padding: 9em 0;
   text-align: left;
+  width: 80vw;
   top: 40%;
   left: 0;
   padding-left: calc(var(--content-padding) + 1em);
   transform: translateY(-10%);
 }
-#touch a:hover:after { 
-  width: 0; 
-  left: 0; 
-}
-.hello a:hover:after { 
-  width: 0; 
-  left: 0; 
-}
 #hero .thumb1 img{
   width: 270px;
   margin-left: 5em;
-  margin-top: 18%;
+  margin-top: 65%;
 
 }
 #hero .text {
-  width: 40vw;
+  width: 80vw;
 }
 #hero h4 {
-  font-size: 3.2em;
+  font-size: 3.4em;
   font-weight: bolder;
   line-height: 1.2;
   margin-bottom: 0.5em;
@@ -217,7 +173,7 @@ a:hover:after {
  #touch a 
 {
 font-size: 1.4em;
-letter-spacing: 2px;
+letter-spacing: 0.01em;
 color: black;
 }
 
@@ -246,7 +202,7 @@ color: black;
   padding: 0;
 justify-self: center;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr) );
+  grid-template-columns: repeat(auto-fit, minmax(120px, 2fr) );
 }
 
 #skills ul li {
@@ -267,11 +223,17 @@ justify-self: center;
 
 #about {
   display: grid;
-  grid-template-columns: minmax(120px, 150px) 1fr;
+  grid-template-columns: minmax(120px, 150px) 2fr;
   align-items: flex-start;
-  width: 70vw;
+  width: 76vw;
   margin: auto;
 }
+@media screen and (max-width: 250px) {
+  #about {
+    display: grid;
+  }
+}
+
 
 #about  p {
   font-size: 1.4em;
@@ -307,7 +269,7 @@ justify-self: center;
   margin-top: -0.3em;
 }
 #contact .hello a{
-  letter-spacing: 2px;
+
 }
 
 #contact a
