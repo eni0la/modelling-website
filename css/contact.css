@@ -223,7 +223,7 @@ footer {
     .wrapper {
     text-align: center;
     background-color: black;
-    padding-top: 30px;
+    padding-top: 20px;
   
   }
   footer .wrapper h4 {
@@ -243,7 +243,7 @@ footer {
     font-family: 'Poppins', sans-serif;
   }
    .wrapper i {
-      padding: 10px; 
+      padding: 15px; 
       font-size: 25px;
       transition: all ease-in-out 150ms;
       margin-right: 10px;

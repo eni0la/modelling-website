@@ -52,6 +52,7 @@ a {
 header{
   background: #000000;
   color :#000000;
+  position: fixed;
   width: 100%;
   height: var(--header-height);
   z-index: 9;
@@ -135,7 +136,7 @@ header nav > button#mobile-icon {
   background-position: right;
   background-size: cover;
   height: 790px;
-  background-color: #ffffff;
+  background-color: #000000;
   position: relative;
   text-align: left;
 }
@@ -149,9 +150,10 @@ header nav > button#mobile-icon {
     padding-left: calc(var(--content-padding) + 1em);
     transform: translateY(-50%);
   }
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 650px) {
  #hero .hero__content {
-      padding-left: -3em;
+   font-size: 0.65em;
+   margin-top: -4em;
     }
   }
   
@@ -164,7 +166,7 @@ header nav > button#mobile-icon {
 }
 
 #hero .hero__content h1 {
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 600;
   line-height: 1em; 
   margin: 0;
@@ -180,9 +182,11 @@ header nav > button#mobile-icon {
 
 #hero .hero__content button {
   cursor: pointer;
-  font-family: 'Roboto', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   height: 48px;
-  padding: 0 3em;
+  padding: 0 2em;
+  font-weight: normal;
+  font-size: 1.3em;
   color: #000000;
   background: #000000;
   border: 1px solid #000;
@@ -215,11 +219,6 @@ header nav > button#mobile-icon {
     font-size: .95em;
   }
   
-  #hero .hero__content button {  
-    height:  40px;
-    padding: 0 2em;
-    background-color: #000000;
-  }
 }
 
 #phase-three h6 {
@@ -267,6 +266,7 @@ header nav > button#mobile-icon {
   font-size: medium;
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
+  line-height: 1.7;
   font-size: 20px;
   text-align: center;
   padding-left: 100px;
@@ -302,7 +302,7 @@ footer {
     .wrapper {
     text-align: center;
     background-color: black;
-    padding-top: 30px;
+    padding-top: 20px;
   
   }
   footer .wrapper h4 {
@@ -322,7 +322,7 @@ footer {
     font-family: 'Poppins', sans-serif;
   }
    .wrapper i {
-      padding: 10px; 
+      padding: 5px; 
       font-size: 25px;
       transition: all ease-in-out 150ms;
       margin-right: 10px;
