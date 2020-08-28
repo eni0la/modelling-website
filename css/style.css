@@ -152,8 +152,8 @@ header nav > button#mobile-icon {
   }
   @media screen and (max-width: 650px) {
  #hero .hero__content {
-   font-size: 0.65em;
-   margin-top: -0.5em;
+   font-size: 0.6em;
+   margin-top: -3em;
     }
   }
   
@@ -175,7 +175,7 @@ header nav > button#mobile-icon {
 }
 
 #hero .hero__content p {
-  font-size: 1.55em;
+  font-size: 1.7em;
   margin: 1.4em 0 1.2em;
   color: #ffffff;
 }
@@ -266,13 +266,16 @@ header nav > button#mobile-icon {
   font-size: medium;
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
-  line-height: 1.7;
-  font-size: 20px;
+  line-height: 1.65;
+  font-size: 21px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 10px;
   margin: 0;
+}
+#phase-three .container {
+  width: 100vw;
 }
 
 #foot{
