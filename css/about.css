@@ -149,7 +149,7 @@ font-weight: normal;
   font-size: 1.5em;
   font-weight: normal;
   margin: 1em;
-  transform: translateX(40%);
+  text-align: left;
   
 }
 
@@ -164,9 +164,6 @@ padding-top: 1.5em;
 margin-right: 10%;
 text-align: left;
 font-weight: normal;
-}
-.scroll li{
-  transform: translateX(40%);
 }
 *{
   box-sizing: border-box;

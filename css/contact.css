@@ -157,6 +157,11 @@ justify-content: space-between;
   }
 }
 @media screen and (max-width: 1200px) {
+  #contact .container2 #submit {
+   width: 43%;
+  }
+}
+@media screen and (max-width: 1200px) {
   #contact .container2 {
     margin-left: 30%;
     margin-right: 50%;
@@ -185,7 +190,7 @@ justify-content: space-between;
 }
 
 input[type=text], input[type=email],input[type=tel], textarea{
-  width: 65%;
+  width: 78%;
   padding: 10px;
   border-bottom: 1px solid #000000;
   font-size: 0.9em;
