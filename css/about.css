@@ -130,26 +130,29 @@ header nav > button#mobile-icon {
   margin-top: -8em;
 }
 #hero{
-  height: 30vh;
+  height: 50vh;
   margin-top: -17em;
-  background-color: black;
+  background-image: url(../images/new3.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
- max-width: 100%;
   padding: 0;
   text-align: left;
 }
-
-#hero h4
-{
+.scroll h4 {
+  font-size: 3em;
   text-align: center;
-  font-size: 2.3em;
-  font-weight: lighter;
-  background-color: black;
-  color: white;
-
+padding-top: 0.5em;
+font-weight: normal;
 }
+.scroll h5 {
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 1em;
+  transform: translateX(40%);
+  
+}
+
  .scroll p
 {
 font-size: 1.1em;
@@ -157,10 +160,13 @@ line-height: 1.5;
 letter-spacing: 0.01em;
 text-align: justify;
 margin-left: 10%;
-padding-top: 3em;
+padding-top: 1.5em;
 margin-right: 10%;
 text-align: left;
 font-weight: normal;
+}
+.scroll li{
+  transform: translateX(40%);
 }
 *{
   box-sizing: border-box;

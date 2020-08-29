@@ -182,7 +182,7 @@ header nav > button#mobile-icon {
 
 #hero .hero__content button {
   cursor: pointer;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
   height: 48px;
   padding: 0 2em;
   font-weight: normal;
@@ -284,12 +284,13 @@ header nav > button#mobile-icon {
   text-align: center;
 }
 #foot h4 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   font-size: 15px;
 }
 #foot h5 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
+  /*font-family: Georgia, 'Times New Roman', Times, serif; */
   font-size: 20px;
 }
 #foot i{
@@ -302,7 +303,7 @@ footer {
   
 }
 
-    .wrapper {
+  footer  .wrapper {
     text-align: center;
     background-color: black;
     padding-top: 20px;
