@@ -52,7 +52,6 @@ a {
 header{
   background: #000000;
   color :#000000;
-  position: fixed;
   width: 100%;
   height: var(--header-height);
   z-index: 9;
@@ -135,7 +134,8 @@ header nav > button#mobile-icon {
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  height: 790px;
+  background-attachment: fixed;
+  min-height: 850px;
   background-color: #000000;
   position: relative;
   text-align: left;
@@ -184,16 +184,17 @@ header nav > button#mobile-icon {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   height: 48px;
-  padding: 0 2em;
+  padding: 0 1em;
   font-weight: normal;
-  font-size: 1.6em;
+  font-size: 1.7em;
   color: #000000;
   background: #000000;
-  border: 1px solid #000;
+  border: 1px solid black;
 }
 #hero .hero__content button a {
   display: block;
 }
+
 
 @media screen and (max-width: 400px) {
   #hero {
@@ -266,8 +267,8 @@ header nav > button#mobile-icon {
   font-size: medium;
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
-  line-height: 1.65;
-  font-size: 21px;
+  line-height: 1.75;
+  font-size: 25px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
@@ -277,6 +278,27 @@ header nav > button#mobile-icon {
 #phase-three .container {
   width: 100vw;
 }
+#image {
+  margin-top: 4em;
+  display: flex;
+  justify-content: space-evenly;
+}
+#image img{
+  height: 70vh;
+  width: 30vw;
+}
+@media screen and (max-width: 1200px) {
+  #image img{
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #image{
+    display: grid;
+    gap: 1em;
+}
+}
+
 
 #foot{
   background-color:white;
