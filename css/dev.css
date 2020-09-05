@@ -271,10 +271,11 @@ justify-self: center;
   margin-bottom: 0.5em;
 }
 
-#contact p 
+#contact .contactme p 
 {
   font-size: 1.2em;
-  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+  margin-top: -0.2em;
   color: #ccd6f6;
   font-weight: normal;
 }
@@ -283,6 +284,10 @@ justify-self: center;
 {
   text-decoration: underline;
   color: #64ffda;
+}
+#contact p {
+  margin-top: 1em;
+  color: #ffffff;
 }
 
 #contact i
