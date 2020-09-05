@@ -94,9 +94,3 @@ body{
   height: 190px;
  }
 }
-.text-container {
-  background: black;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  t
-}
