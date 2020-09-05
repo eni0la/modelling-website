@@ -29,6 +29,7 @@ img {
 
 html {
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{

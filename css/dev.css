@@ -26,6 +26,7 @@
 
 html {
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -33,6 +34,7 @@ body{
   font-family: Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   font-size: 15px;
   line-height: 1.5;
+  width: 100vw;
   padding: 0;
   margin:0;
   background-color: #0a192f;
@@ -139,6 +141,7 @@ main
 
 #hero
 {
+  overflow-x: hidden;
   display: flex;
   margin: 0 auto;
   padding: 5em 0;
@@ -232,7 +235,7 @@ justify-self: center;
   display: grid;
   grid-template-columns: minmax(120px, 150px) 2fr;
   align-items: flex-start;
-  width: 77vw;
+  width: 79vw;
   margin: auto;
 }
 @media screen and (max-width: 250px) {

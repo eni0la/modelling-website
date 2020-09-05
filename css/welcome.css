@@ -26,6 +26,7 @@
 
 html {
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -133,9 +134,9 @@ header nav > button#mobile-icon {
 #hero {
   background-image:url(../images/new2.jpg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: center;
   background-size: cover;
-  min-height: 730px;
+  height: 790px;
   background-color: #000000;
   position: relative;
   text-align: left;
