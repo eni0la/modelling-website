@@ -130,7 +130,7 @@ header nav > button#mobile-icon {
 }
 
 #hero {
-  background-image:url(./../images/new2.jpg);
+  background-image:url(../images/new2.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
