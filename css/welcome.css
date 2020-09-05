@@ -52,6 +52,7 @@ a {
 header{
   background: #000000;
   color :#000000;
+  position: fixed;
   width: 100%;
   height: var(--header-height);
   z-index: 9;
@@ -130,11 +131,10 @@ header nav > button#mobile-icon {
 }
 
 #hero {
-  background-image:url(../images/new3.jpg);
+  background-image:url(../images/new2.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: left;
   background-size: cover;
-  background-attachment: fixed;
   min-height: 730px;
   background-color: #000000;
   position: relative;
@@ -268,7 +268,7 @@ header nav > button#mobile-icon {
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
   line-height: 1.75;
-  font-size: 25px;
+  font-size: 22px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
