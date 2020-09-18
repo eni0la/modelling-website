@@ -306,7 +306,7 @@ header nav {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: .7em;
-  color: #ccd6f6;
+  color: #ffffff;
 }
 
 #hero .hero__content h1 {
@@ -315,12 +315,12 @@ header nav {
   line-height: 1em; 
   margin: 0;
   text-transform: uppercase;
-  color: #ccd6f6;
+  color: #ffffff;
 }
 
 #hero .hero__content p {
   font-size: 1.5em;
-  color: #ccd6f6;
+  color: #ffffff;
 }
 #hero .hero__content button {
   cursor: pointer;
