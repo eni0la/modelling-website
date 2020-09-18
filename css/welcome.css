@@ -46,10 +46,11 @@ a {
 header{
   background: #ffffff;
   color :#000000;
-  height: 9em;
+  height: 6em;
   position: fixed;
   width: 100%;
   z-index: 9;
+  margin-bottom: -2em;
 }
 
 header nav {
@@ -74,7 +75,7 @@ header nav {
 {
   display: block;
   position: relative;
-  top: 70px;
+  top: 50px;
   left: 5px;
   
   z-index: 1;
@@ -211,6 +212,10 @@ header nav {
 {
   transform: none;
 }
+#menuToggle h6 {
+  font-size: 0.8em;
+  font-weight: light;
+}
 @media screen and (max-width: 7750px) {
   #hero nav > #mobile-icon {
     display: block;
@@ -251,12 +256,17 @@ header nav {
 }
 #hero img{
   background-position: right;
-  height: 45.3em;
-  width: 55%;
+  height: 38.3em;
+  width: 65%;
   position: relative;
-  margin-top:13em;
+  margin-top:10.5em;
   border-radius: 2%;
-  transform: translateX(85%);
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);
+  transform: translateX(70%);
   
 }
    @media screen and (max-width: 950px) {
@@ -268,7 +278,7 @@ header nav {
   #hero img{
     height: 25em;
     width: 65%;
-    transform: translateX(65%);
+    transform: translateX(55%);
      }
    }
 
@@ -309,7 +319,7 @@ header nav {
 }
 #hero .hero__content button {
   cursor: pointer;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Croissant One', cursive;
   height: 48px;
   padding: 0 1em;
   font-weight: normal;
@@ -358,8 +368,7 @@ header nav {
 
 #phase-three h6 span {
   font-size: 55px;
-  font-family: "playfair Display", "sans-serif";
-  font-style: italic;
+  font-family: 'Croissant One', cursive;
   padding-bottom: 0px;
   font-weight: lighter ;
   line-height: 1.0;
@@ -393,11 +402,11 @@ header nav {
 
 #phase-three p {
   font-size: medium;
-  font-family: "playfair Display", "sans-serif";
-  font-style: italic;
+  font-family: 'Croissant One', cursive;
   line-height: 1.75;
   font-size: 23px;
   text-align: center;
+  font-weight: lighter;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 10px;
@@ -423,7 +432,7 @@ header nav {
   font-size: 15px;
 }
 #foot h5 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Croissant One', cursive;
   /*font-family: Georgia, 'Times New Roman', Times, serif; */
   font-size: 20px;
 }
@@ -436,7 +445,7 @@ footer {
 
     .wrapper {
     text-align: center;
-    background-color: black;
+    background-color: #0a192f;
     padding-top: 20px;
   
   }
