@@ -46,7 +46,7 @@ a {
 header{
   background: #ffffff;
   color :#000000;
-  height: 7em;
+  height: 9em;
   position: fixed;
   width: 100%;
   z-index: 9;
@@ -74,8 +74,8 @@ header nav {
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 70px;
+  left: 5px;
   
   z-index: 1;
   
@@ -93,7 +93,7 @@ header nav {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #0a192f;
 }
 
 
@@ -182,12 +182,12 @@ header nav {
 #menu
 {
   position: absolute;
-  width: 400px;
-  margin: -100px 0 0 -150px;
+  width: 370px;
+  margin: -100px 0 0 -70px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 115px;
   left: 0px;
-  background: #ededed;
+  background-image: url(../images/pattern.png);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -251,18 +251,24 @@ header nav {
 }
 #hero img{
   background-position: right;
-  height: 55.3em;
+  height: 45.3em;
   width: 55%;
   position: relative;
-  margin-top: 7em;
+  margin-top:13em;
   border-radius: 2%;
-  margin-left: 47em;
+  transform: translateX(85%);
   
 }
-@media screen and (max-width: 650px) {
+   @media screen and (max-width: 950px) {
+    #hero {
+      margin-bottom: -6em;
+       }
+     }
+@media screen and (max-width: 950px) {
   #hero img{
-    margin-left: 12em;
-    height: 30em;
+    height: 25em;
+    width: 65%;
+    transform: translateX(65%);
      }
    }
 
@@ -281,7 +287,7 @@ header nav {
   }
   
   #hero .hero__content h3 {
-  font-size: 1.7em;
+  font-size: 1.6em;
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: .7em;
@@ -289,7 +295,7 @@ header nav {
 }
 
 #hero .hero__content h1 {
-  font-size: 5.5em;
+  font-size: 5.15em;
   font-weight: 600;
   line-height: 1em; 
   margin: 0;
@@ -298,7 +304,7 @@ header nav {
 }
 
 #hero .hero__content p {
-  font-size: 1.7em;
+  font-size: 1.5em;
   color: #0a192f;
 }
 #hero .hero__content button {
@@ -326,14 +332,15 @@ header nav {
   #hero .hero__content {
     bottom: 0;
     transform: none;
+    margin-top: -9em;
   }
   
   #hero .hero__content h3 {
-    font-size: medium;
+    font-size: 1.2em;
   }
   
   #hero .hero__content h1 {
-    font-size: 2em;
+    font-size: 4em;
     
   }
   
@@ -350,7 +357,7 @@ header nav {
 
 
 #phase-three h6 span {
-  font-size: 65px;
+  font-size: 55px;
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
   padding-bottom: 0px;
@@ -389,7 +396,7 @@ header nav {
   font-family: "playfair Display", "sans-serif";
   font-style: italic;
   line-height: 1.75;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
   padding-left: 100px;
   padding-right: 100px;
@@ -400,7 +407,7 @@ header nav {
   width: 100vw;
 }
 #phase-three{
-  margin-top:8em;
+  margin-top:4em;
 }
 
 
@@ -424,13 +431,10 @@ header nav {
   text-align: center;
 }
 footer {
-  margin-top: 10em;
-  position: absolute;
-  width: 100vw;
-  
+  margin-top: 5.3em;
 }
 
-  footer  .wrapper {
+    .wrapper {
     text-align: center;
     background-color: black;
     padding-top: 20px;
@@ -452,16 +456,16 @@ footer {
     margin-top: 13px;
     font-family: 'Poppins', sans-serif;
   }
+  .wrapper a:hover:after { 
+    width: 0; 
+    left: 0; 
+  }
    .wrapper i {
-      padding: 5px; 
+      padding: 8px; 
       font-size: 25px;
       transition: all ease-in-out 150ms;
       margin-right: 10px;
       right: 10px;
-      }
-      .wrapper a:hover:after { 
-        width: 0; 
-        left: 0; 
       }
    .wrapper a:nth-child(3) {
    color: #ffffff;
@@ -474,5 +478,5 @@ footer {
   }
    .wrapper i:hover {
     margin-top: -3px; 
-   text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+   text-shadow: 0px 14px 10px rgba(255, 255, 255, 0.4);
     } 
