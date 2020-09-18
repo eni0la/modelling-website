@@ -244,15 +244,20 @@ header nav {
 } 
 
 #hero {
-  background-image:url(../images/pattern.png);
+  background-image:url(../images/neww.jpg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-position: right;
   background-size: cover;
-  height: 850px;
+  height: 750px;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
   text-align: left;
+  -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(0px);
 }
 #hero img{
   background-position: right;
@@ -301,7 +306,7 @@ header nav {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: .7em;
-  color: #0a192f;
+  color: #ccd6f6;
 }
 
 #hero .hero__content h1 {
@@ -310,16 +315,16 @@ header nav {
   line-height: 1em; 
   margin: 0;
   text-transform: uppercase;
-  color: #0a192f;
+  color: #ccd6f6;
 }
 
 #hero .hero__content p {
   font-size: 1.5em;
-  color: #0a192f;
+  color: #ccd6f6;
 }
 #hero .hero__content button {
   cursor: pointer;
-  font-family: 'Croissant One', cursive;
+  font-family: 'Poppins', sans-serif;
   height: 48px;
   padding: 0 1em;
   font-weight: normal;
@@ -362,6 +367,7 @@ header nav {
 
 #phase-three h6 {
   text-align: center;
+  color: #0a192f;
   margin-bottom: 5em;
 }
 
@@ -406,7 +412,8 @@ header nav {
   line-height: 1.75;
   font-size: 23px;
   text-align: center;
-  font-weight: lighter;
+  color: #0a192f;
+  font-weight: light;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 10px;
@@ -416,7 +423,7 @@ header nav {
   width: 100vw;
 }
 #phase-three{
-  margin-top:4em;
+  margin-top:12em;
 }
 
 
