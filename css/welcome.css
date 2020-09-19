@@ -184,7 +184,7 @@ header nav {
 {
   position: absolute;
   width: 370px;
-  margin: -100px 0 0 -70px;
+  margin: -100px 0 0 -80px;
   padding: 50px;
   padding-top: 115px;
   left: 0px;
@@ -246,7 +246,7 @@ header nav {
 #hero {
   background-image:url(../images/neww.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
   height: 750px;
   margin-top: -2em;
@@ -279,13 +279,6 @@ header nav {
       margin-bottom: -6em;
        }
      }
-@media screen and (max-width: 950px) {
-  #hero img{
-    height: 25em;
-    width: 65%;
-    transform: translateX(55%);
-     }
-   }
 
   #hero .hero__content {
     position: absolute;
@@ -306,7 +299,7 @@ header nav {
   text-transform: uppercase;
   font-weight: 600;
   margin-bottom: .7em;
-  color: #ffffff;
+  color: #0a192f;
 }
 
 #hero .hero__content h1 {
@@ -331,6 +324,7 @@ header nav {
   font-size: 1.5em;
   color: #0a192f;
   background: #ffffff;
+  font-weight: bold;
   border: 1px solid #0a192f;
 }
 #hero .hero__content button a {
@@ -338,10 +332,10 @@ header nav {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 750px) {
   #hero {
     background-position: top;
-    height: 100vh;
+    height: 700px;;
   }
   
   #hero .hero__content {
