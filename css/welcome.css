@@ -46,7 +46,7 @@ a {
 header{
   background: #ffffff;
   color :#000000;
-  height: 8em;
+  height: 6em;
   position: fixed;
   width: 100%;
   z-index: 9;
@@ -75,7 +75,7 @@ header nav {
 {
   display: block;
   position: relative;
-  top: 60px;
+  top: 50px;
   left: -20px;
   
   z-index: 1;
@@ -184,7 +184,7 @@ header nav {
 {
   position: absolute;
   width: 370px;
-  margin: -100px 0 0 -80px;
+  margin: -110px 0 0 -80px;
   padding: 50px;
   padding-top: 115px;
   left: 0px;

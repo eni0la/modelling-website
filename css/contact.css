@@ -46,7 +46,7 @@ a {
 header{
   background: #ffffff;
   color :#000000;
-  height: 6em;
+  height: 4em;
   position: fixed;
   width: 100%;
   z-index: 9;
@@ -75,7 +75,7 @@ header nav {
 {
   display: block;
   position: relative;
-  top: 50px;
+  top:30px;
   left: 5px;
   
   z-index: 1;
@@ -184,9 +184,9 @@ header nav {
 {
   position: absolute;
   width: 370px;
-  margin: -110px 0 0 -80px;
+  margin: -115px 0 0 -80px;
   padding: 50px;
-  padding-top: 115px;
+  padding-top: 110px;
   left: 0px;
   background-image: url(../images/pattern.png);
   list-style-type: none;
