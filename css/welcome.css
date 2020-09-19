@@ -244,11 +244,11 @@ header nav {
 } 
 
 #hero {
-  background-image:url(../images/neww.jpg);
+  background-image:url(../images/new2222.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 750px;
+  height: 850px;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
@@ -313,7 +313,8 @@ header nav {
 
 #hero .hero__content p {
   font-size: 1.5em;
-  color: #ffffff;
+  color: #0a192f;
+  font-weight:bold;
 }
 #hero .hero__content button {
   cursor: pointer;
@@ -331,8 +332,12 @@ header nav {
   display: block;
 }
 
-
 @media screen and (max-width: 750px) {
+  #hero {
+    height: 700px;;
+  }
+}
+@media screen and (max-width: 400px) {
   #hero {
     background-position: top;
     height: 700px;;
