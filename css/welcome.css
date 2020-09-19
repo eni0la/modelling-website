@@ -295,9 +295,9 @@ header nav {
   }
   
   #hero .hero__content h3 {
-  font-size: 1.6em;
+  font-size: 1.65em;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 650;
   margin-bottom: .7em;
   color: #0a192f;
 }
@@ -313,8 +313,8 @@ header nav {
 
 #hero .hero__content p {
   font-size: 1.5em;
-  color: #0a192f;
-  font-weight:bold;
+  color: #ffffff;
+  font-weight:550;
 }
 #hero .hero__content button {
   cursor: pointer;
@@ -334,13 +334,17 @@ header nav {
 
 @media screen and (max-width: 750px) {
   #hero {
-    height: 700px;;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 750px) {
+  #hero .hero__content {
+    margin-top: 1em;
   }
 }
 @media screen and (max-width: 400px) {
   #hero {
     background-position: top;
-    height: 700px;;
   }
   
   #hero .hero__content {
