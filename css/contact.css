@@ -44,86 +44,182 @@ a {
 
 
 header{
-  background: #000000;
-  color :#ffffff;
-  height: var(--header-height);
+  background: #ffffff;
+  color :#000000;
+  height: 6em;
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
   z-index: 9;
+  margin-bottom: -2em;
 }
 
 header nav {
   padding: 0 var(--content-padding);
   height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
 }
 
-header nav > a:first-child {
-  font-size: 2em;
-  letter-spacing: 0.1em;
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-header nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
-header nav ul li {
-  display: inline-block;
-}
 
-header nav ul li:not(:last-of-type) {
-  margin-right: 1.7em;
-}
 
-header nav ul li a { 
-  text-transform: uppercase;
-}
-
-header + * {
+/* header + * {
   margin-top: var(--header-height);
+} */
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 5px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-header nav > button#mobile-icon {
+#menuToggle a
+{
+  text-decoration: none;
+  color: #0a192f;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: #0a192f;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
   cursor: pointer;
-  background: transparent;
-  border: none;
-  font-size: 1.5em;
-  display: none;
-  color: white;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
 }
 
-@media screen and (max-width: 750px) {
-  header nav > button#mobile-icon {
-    display: block;
-  }
-
-  header nav ul {
-    display: none;
-    position: absolute;
-    top: var(--header-height);
-    padding: 5px;
-    width: 200px;
-    text-align: center;
-    right: 10px;
-    background: #000000;
-  }
-
-  header nav ul li {
-    margin: 1.2em 0 !important;
-    display: block;
-    text-align: center;;
-  }
-
-  header nav ul.active {
-    display: block;
-  }
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 5px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #0a192f;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
 }
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #0a192f;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 370px;
+  margin: -110px 0 0 -80px;
+  padding: 50px;
+  padding-top: 115px;
+  left: 0px;
+  background-image: url(../images/pattern.png);
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-150%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+#menuToggle h6 {
+  font-size: 0.8em;
+  font-weight: light;
+}
+@media screen and (max-width: 7750px) {
+  #hero nav > #mobile-icon {
+    display: block;
+  }
 
 label{
   font-size: 1.2em;
@@ -172,6 +268,7 @@ justify-content: space-between;
  h3 {
   font-size: 3em;
   font-weight: lighter;
+  color: #0a192f;
   text-align: center;
   padding-top: 2.5em;
   padding-bottom: 20px;
@@ -181,6 +278,7 @@ justify-content: space-between;
   margin-top: -1em;
   font-size: 16px;
   padding: 0;
+  color: #0a192f;
   text-align: center;
 }
 
@@ -193,7 +291,7 @@ justify-content: space-between;
 input[type=text], input[type=email],input[type=tel], textarea{
   width: 78%;
   padding: 10px;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #0a192f;
   font-size: 0.9em;
   border-top: hidden;
   border-left: hidden;
@@ -208,17 +306,17 @@ input[type=text], input[type=email],input[type=tel], textarea{
 }
   
 input[type=submit] {
-  background: #000000;
+  background: #0a192f;
   margin: 0 auto;
   outline: 0 ;
   color: #ffffff;
-  border: 1px solid black;
+  border: 1px solid #0a192f;
   border-radius: 4px;
   transition: all ease-in-out 0.1s;
   position: relative;
 }
 input[type=submit]  :focus {
-background: #000000;
+background: #0a192f;
 color: whitesmoke;
 }
 footer {
@@ -230,7 +328,7 @@ footer {
 
     .wrapper {
     text-align: center;
-    background-color: black;
+    background-color: #0a192f;
     padding-top: 20px;
   
   }
