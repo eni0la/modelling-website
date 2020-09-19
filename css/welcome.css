@@ -46,7 +46,7 @@ a {
 header{
   background: #ffffff;
   color :#000000;
-  height: 6em;
+  height: 8em;
   position: fixed;
   width: 100%;
   z-index: 9;
@@ -75,8 +75,8 @@ header nav {
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 5px;
+  top: 60px;
+  left: -20px;
   
   z-index: 1;
   
@@ -104,7 +104,7 @@ header nav {
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
+  top: -9px;
   left: -5px;
   
   cursor: pointer;
