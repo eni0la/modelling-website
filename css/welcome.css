@@ -246,7 +246,7 @@ header nav {
 #hero {
   background-image:url(../images/neww.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   height: 850px;
   margin-top: -2em;
