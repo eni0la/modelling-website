@@ -227,5 +227,5 @@ font-size: 0.5em;
 }
 @media screen and (max-width: 7750px) {
   #hero nav > #mobile-icon {
-    display: block;
+    display: block;👈
   }

@@ -245,7 +245,7 @@ header nav {
   height: 1.5em;
 } 
 
-#picmenu .container div img {
+ /*#picmenu .container div img {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%); 
   cursor: pointer;
@@ -256,7 +256,7 @@ header nav {
   transition: filter .3s ease-in-out;
   -webkit-filter: grayscale(0%); 
   filter: grayscale(0%); 
-}
+} */
 footer {
   margin-top: 5.3em;
 }
