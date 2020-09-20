@@ -244,11 +244,11 @@ header nav {
 } 
 
 #hero {
-  background-image:url(../images/neww.jpg);
+  background-image:url(../images/new4.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  height: 850px;
+  height: 900px;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
@@ -285,7 +285,7 @@ header nav {
     top: 50%;
     left: 0;
     padding-left: calc(var(--content-padding) + 1em);
-    transform: translateY(-50%);
+    transform: translateY(-0%);
   }
   @media screen and (max-width: 650px) {
  #hero .hero__content {
@@ -296,13 +296,15 @@ header nav {
   
   #hero .hero__content h3 {
   font-size: 1.65em;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 650;
   margin-bottom: .7em;
-  color: #0a192f;
+  color: #ffffff;
 }
 
 #hero .hero__content h1 {
+  text-align: center;
   font-size: 5.15em;
   font-weight: 600;
   line-height: 1em; 
@@ -315,16 +317,18 @@ header nav {
   font-size: 1.5em;
   color: #ffffff;
   font-weight:550;
+  text-align: center;
 }
 #hero .hero__content button {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
-  height: 48px;
+  height: 45px;
   padding: 0 1em;
   font-weight: normal;
   font-size: 1.5em;
+  text-align: center;
+  transform: translateX(75%);
   color: #0a192f;
-  text-decoration: underline;
   background: #ffffff;
   font-weight: bold;
   border: 1px solid #0a192f;
@@ -340,7 +344,7 @@ header nav {
 }
 @media screen and (max-width: 750px) {
   #hero .hero__content {
-    margin-top: 1em;
+    margin-top: -3em;
   }
 }
 @media screen and (max-width: 400px) {
