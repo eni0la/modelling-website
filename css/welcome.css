@@ -244,9 +244,9 @@ header nav {
 } 
 
 #hero {
-  background-image:url(../images/new4.jpg);
+  background-image:url(../images/neww.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   height: 900px;
   margin-top: -2em;
