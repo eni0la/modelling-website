@@ -218,11 +218,11 @@ header nav {
 
 
 #hero {
-  background-image:url(../images/new222.jpg);
+  background-image:url(../images/neww.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-size: cover;
-  height: 950px;
+  height: 900px;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
@@ -363,7 +363,7 @@ hr{
 
 #phase-three h6 span {
   font-size: 47px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Croissant One', cursive;
   padding-bottom: 0px;
   font-weight: lighter ;
   line-height: 1.0;
@@ -399,7 +399,7 @@ hr{
   font-size: medium;
   font-family: 'Poppins', sans-serif;
   line-height: 1.75;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   color: #0a192f;
   font-weight: light;
