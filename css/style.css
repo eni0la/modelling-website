@@ -171,13 +171,13 @@ header nav {
 {
   position: absolute;
   width: 300px;
-  height: 100vw;
+  height: 200vw;
   margin: -100px 0 0 0;
   padding: 50px;
   padding-top: 125px;
   right: -100px;
   
-  background: #ededed;
+  background: #ffffff;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -218,11 +218,11 @@ header nav {
 
 
 #hero {
-  background-image:url(../images/neww.jpg);
+  background-image:url(../images/new222.jpg);
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
   background-size: cover;
-  height: 900px;
+  height: 950px;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
@@ -265,7 +265,7 @@ hr{
 }
   #hero .hero__content {
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: -2%;
     padding-left: calc(var(--content-padding) + 1em);
     transform: translateY(-0%);
@@ -334,7 +334,6 @@ hr{
   #hero {
     background-position: top;
   }
-  
   #hero .hero__content {
     bottom: 0;
     transform: none;
@@ -353,7 +352,6 @@ hr{
   #hero .hero__content p {
     font-size: .95em;
   }
-  
 }
 
 #phase-three h6 {
@@ -364,7 +362,7 @@ hr{
 
 
 #phase-three h6 span {
-  font-size: 50px;
+  font-size: 47px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: 0px;
   font-weight: lighter ;
