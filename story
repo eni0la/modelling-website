@@ -229,3 +229,123 @@ font-size: 0.5em;
   #hero nav > #mobile-icon {
     display: block;👈
   }
+
+
+
+  welcome css 
+  
+html {
+  padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-image: url(../images/dot5.png);
+  overflow: hidden;
+}
+
+
+.container{
+  width: 100%;
+  height: 100vh;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+.image-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.image-container img{
+  -webkit-filter: drop-shadow(-4px 5px 5px rgba(0,0,0,0.6));
+  filter:drop-shadow(-4px 5px 5px rgba(0,0,0,0.6)) ;
+  height: 400px;
+}
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2em;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  margin-left: -220px;
+}
+.fading-effect{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-image: url(../images/dot5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-container p a{
+  text-decoration: underline;
+}
+@keyframes image-slide {
+  0% { transform: translateX(-250px) scale(0);}
+  60% { transform: translateX(-250px) scale(1);}
+  90% { transform: translateX(150px) scale(1);}
+  100% { transform: translateX(150px) scale(1);}
+}
+@keyframes text-slide {
+  0% { width: 100%;}
+  60% { width: 100%;}
+  75% { width: 0%;}
+  100% { width: 0%;}
+}
+/* [animation name] [animation duration] [animation transition function] */
+.image-container img {
+  animation: image-slide 4s cubic-bezier(.5, .5, 0, 1);
+  animation-fill-mode: forwards;
+}
+@keyframes image-slide {
+  0% { transform: translatex(-250px) scale(0); }
+  60% { transform: translatex(-250px) scale(1); }
+  90% { transform: translatex(150px) scale(1); }
+  100% { transform: translatex(150px) scale(1); }
+}
+/* Changes animation values for viewports up to 1000px wide */
+@media screen and (max-width: 1000px) {
+  @keyframes image-slide {
+    0% { transform: translatex(-250px) scale(0); }
+    60% { transform: translatex(-150px) scale(1); }
+    90% { transform: translatex(120px) scale(1); }
+    100% { transform: translatex(120px) scale(1); }
+  }
+}
+@media screen and (max-width: 1000px) {
+   .text-container {
+   margin-left: -4em;
+   font-size: 1em;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .image-container img {
+  height: 190px;
+ }
+}
+welcome html<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/style.css"> 
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <meta name="viewport" content="width = device-width">
+  </head>
+  <body>
+          <div class="container">
+          <div class="image-container">
+            <img src="./images/bolu33.png">
+        </div>
+        <div class="text-container">
+          <h1>WELCOME!</h1>
+          <p ><a href="welcome.html"  style="color: black; font-size: 1.2em;">CLICK HERE >></a> </p>
+        </div>
+        <div class="fading-effect"></div>
+      </div>
+      </body>
+      </html>

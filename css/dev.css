@@ -106,7 +106,7 @@ header nav > button#mobile-icon {
   color: #ccd6f6;
 }
 
-@media screen and (max-width: 2050px) {
+@media screen and (max-width: 750px) {
   header nav > button#mobile-icon {
     display: block;
   }
