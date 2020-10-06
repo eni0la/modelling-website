@@ -396,13 +396,11 @@ hr{
 }
 
 #phase-three p {
-  font-size: medium;
   font-family: 'Poppins', sans-serif;
   line-height: 1.75;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
   color: #0a192f;
-  font-weight: light;
   padding-left: 100px;
   padding-right: 100px;
   padding-bottom: 10px;
