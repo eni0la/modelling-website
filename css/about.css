@@ -217,46 +217,31 @@ header nav {
 
 
 #hero {
-  background-image:url(../images/neww.jpg);
+
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
-  height: 900px;
+  height: 850px;
+  margin-bottom: 5em;
   margin-top: -2em;
   background-color: #ffffff;
   position: relative;
   text-align: left;
-  -webkit-filter: blur(1px);
+  -webkit-filter: blur(4px);
   -moz-filter: blur(1px);
-  -o-filter: blur(1px);
+  -o-filter: blur(14px);
   -ms-filter: blur(1px);
   filter: blur(0px);
 }
-#hero img{
-  background-position: right;
-  height: 38.3em;
-  width: 65%;
-  position: relative;
-  margin-top:10.5em;
-  border-radius: 2%;
-  -webkit-filter: blur(1px);
-  -moz-filter: blur(1px);
-  -o-filter: blur(1px);
-  -ms-filter: blur(1px);
-  filter: blur(1px);
-  transform: translateX(70%);
-  
+#hero h4 {
+  position: absolute;
 }
+
    @media screen and (max-width: 950px) {
     #hero {
-      margin-bottom: -5em;
+      margin-bottom: 6em;
        }
      }
-#menu li img {
-  margin-left: -0.9em;
-  margin-right: 1.5em;
-  
-}
 hr{
   margin-bottom: 1em;
   margin-top: -1em;
@@ -268,17 +253,9 @@ hr{
   margin-top: var(--header-height);
 } */
 
- .scroll {
-  position: relative;
-  background-color: white;
-  margin-left: 9%;
-  margin-right: 9%;
-  padding: 0;
-  margin-top: -8em;
-}
+
 #hero{
   height: 80vh;
-  margin-top: -2em;
   background-image: url(../images/new2.jpg);
   background-repeat: no-repeat;
   background-position: center;

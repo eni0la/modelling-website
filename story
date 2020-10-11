@@ -349,3 +349,11 @@ welcome html<!DOCTYPE html>
       </div>
       </body>
       </html>
+
+
+ <div class="menu">
+        <a target="_blank" href=" http://www.instagram.com/e_niola"><i class="fa fa-3x fa-instagram"></i></a>   <br>
+         <a target="_blank" href=" http://www.facebook.com"><i class="fa fa-3x fa-facebook-f"></i></a>   <br> <a target="_blank" href=" http://www.twitter.com/e__niola"><i class="fa fa-3x fa-twitter"></i></a> 
+        
+         
+      </div>
