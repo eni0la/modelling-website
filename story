@@ -357,3 +357,48 @@ welcome html<!DOCTYPE html>
         
          
       </div>
+
+
+
+              <li><a href="index.html"><img src="https://img.icons8.com/material-sharp/24/000000/home.png"/ src="index.html">Home</a></li>
+        <li><a href="gallery.html"><img src="https://img.icons8.com/fluent-systems-filled/24/000000/gallery.png"/ src="gallery.html">Gallery</a></li>
+        <li><a href="about.html"><img src="https://img.icons8.com/android/24/000000/about.png"/ src="about.html">About</a></li>
+        <li><a href="contact.html"><img src="https://img.icons8.com/material-sharp/24/000000/add-contact-to-company.png"/
+          src="contact.html">Contact</a></li>
+          <button id="btn"><a href="dev.html"> ENIOLA CODES ></a></button>
+
+
+
+          <div class="menu">
+  <a target="_blank" href=" http://www.instagram.com/e_niola"><i class="fa fa-3x fa-instagram"></i></a>   <br>
+  <a target="_blank" href=" http://www.facebook.com"><i class="fa fa-3x fa-facebook-f"></i></a>   <br> <a target="_blank" href=" http://www.twitter.com/e__niola"><i class="fa fa-3x fa-twitter" style="color: white;"></i></a> 
+
+
+
+#phase-three h6 span {
+  font-size: 68px;
+  font-family: "tex gyre adventor" Arial, Helvetica, sans-serif;;
+  padding-bottom: 0px;
+  font-weight: lighter ;
+  line-height: 1.0;
+  position: relative;
+}
+
+
+
+
+  @media screen and (max-width: 535px) {
+  .content h1 span::before {
+    position:  absolute;
+    content: ' ';
+    width: 97%;
+    height: 1px;
+    bottom: 2.2em;
+    left: 1%;
+    text-align: center;
+    background: #fff;
+    }
+  }
+
+  
+</div>
