@@ -39,11 +39,6 @@ body{
   background-color: #ffffff;
 }
 
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-}
-
 .topnav {
   overflow: hidden;
   background-color: transparent;
@@ -109,6 +104,7 @@ body {
     background-position: center;
 
   }
+
   #hero__content .content {
     padding-top: 30em;
     margin-top: -15em;
@@ -118,15 +114,6 @@ body {
     color: #f1f1f1;
   
   }
-
-  
-  #hero__content h3 {
-  font-size: 40px;
-  text-align: center;
-  font-weight: 650;
-  margin-bottom: .7em;
-  color:#ffffff;
-}
 
 #hero__content h1 {
   text-align: center;
@@ -146,7 +133,7 @@ body {
 }
 
  
-#hero__content button {
+.content #btn {
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   height: 45px;
@@ -155,10 +142,10 @@ body {
   font-size: 1.5em;
   text-align: center;
   transform: translateX(0%);
-  color:#060f1d;
+  color:#0a192f;
   background: #ffffff;
   font-weight: bold;
-  border: 1px solid   #060f1d;
+  border: 1px solid   #0a192f;
 }
 #hero__content button a {
   display: block;
@@ -194,19 +181,14 @@ body {
 
   
   #hero__content .content h1 {
-    font-size: 4.5em;
+    font-size: 3.5em;
     
   }
   
   #hero__content .content p {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
-  @media screen and (max-width: 750px) {
-    #phase-three p {
-   font-size: 25px;
-    }
-  }
 
 .menu {
   position: fixed;
@@ -241,7 +223,7 @@ body {
 #phase-three p {
   font-family: 'Poppins', sans-serif;
   line-height: 1.75;
-  font-size: 1.6em;
+  font-size: 1.5em;
   text-align: center;
   font-weight: bold;
   color:#0a192f;
