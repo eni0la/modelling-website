@@ -33,7 +33,7 @@ a {
 }
 body{
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
+  font-family: europa, sans-serif
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
@@ -141,7 +141,7 @@ body{
   height: 45px;
   padding: 0 1em;
   font-weight: normal;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: center;
   transform: translateX(0%);
   color:#0a192f;
@@ -152,12 +152,27 @@ body{
 #hero__content button a {
   display: block;
 }
-
+@media screen and (max-width: 710px) {
+  .content #btn {
+    cursor: pointer;
+    font-family: 'Croissant One', cursive;
+    height: 45px;
+    padding: 0 1em;
+    font-weight: normal;
+    font-size: 1.2em;
+    text-align: center;
+    transform: translateX(0%);
+    color:#0a192f;
+    background: #ffffff;
+    font-weight: bold;
+    border: 1px solid   #0a192f;
+  }
+}
 @media screen and (max-width: 710px) {
   #hero__content .content {
     background-position: top;
     padding-top: 29em;
-    height: 558px;
+    height: 548px;
   }
   #hero__content .content {
     transform: none;
