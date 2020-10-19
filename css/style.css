@@ -33,7 +33,7 @@ a {
 }
 body{
   overflow-x: hidden;
-  font-family: europa, sans-serif
+  font-family: europa;
   font-size: 15px;
   line-height: 1.5;
   padding: 0;
@@ -137,7 +137,7 @@ body{
  
 .content #btn {
   cursor: pointer;
-  font-family: 'Croissant One', cursive;
+  font-family: europa;
   height: 45px;
   padding: 0 1em;
   font-weight: normal;
@@ -155,7 +155,7 @@ body{
 @media screen and (max-width: 710px) {
   .content #btn {
     cursor: pointer;
-    font-family: 'Croissant One', cursive;
+    font-family: europa;
     height: 45px;
     padding: 0 1em;
     font-weight: normal;
@@ -172,7 +172,7 @@ body{
   #hero__content .content {
     background-position: top;
     padding-top: 29em;
-    height: 548px;
+    height: 560px;
   }
   #hero__content .content {
     transform: none;
@@ -193,7 +193,7 @@ body{
   #hero__content .content {
     background-position: top;
     padding-top: 29em;
-      height: 558px;
+      height: 560px;
   }
   #hero__content .content {
     transform: none;
@@ -242,7 +242,7 @@ body{
 
 
 #phase-three p {
-  font-family: 'Croissant One', cursive;
+  font-family: europa;
   line-height: 1.75;
   font-size: 1.5em;
   text-align: center;
@@ -268,12 +268,12 @@ body{
   text-align: center;
 }
 #foot h4 {
-  font-family: 'Croissant One', cursive;
+  font-family: europa;
   text-align: center;
   font-size: 23px;
 }
 #foot h5 {
-  font-family: 'Croissant One', cursive;
+  font-family: europa;
   /*font-family: Georgia, 'Times New Roman', Times, serif; */
   font-size: 20px;
 }
