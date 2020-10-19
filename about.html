@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <link rel="stylesheet" href="./css/about.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <meta name="viewport" content="width = device-width">
-  </head>
-    <body>
-      <header> 
-        <nav>
-          <div id="menuToggle">
-          <input type="checkbox">
-          <span></span>
-          <span></span>
-          <span></span>
-          <ul id="menu">
-            <hr>
-            <li><a href="index.html"><img src="https://img.icons8.com/material-sharp/24/000000/home.png"/ src="index.html">Home</a></li>
-        <li><a href="gallery.html"><img src="https://img.icons8.com/fluent-systems-filled/24/000000/gallery.png"/ src="gallery.html">Gallery</a></li>
-            <li><a href="about.html"><img src="https://img.icons8.com/android/24/000000/about.png"/ src="about.html">About</a></li>
-            <li><a href="contact.html"><img src="https://img.icons8.com/material-sharp/24/000000/add-contact-to-company.png"/
-              src="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    </header>
-                  <section id="hero">
-                    <h4>About Me.</h4>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+      <section id="hero">
+<header>
+    
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+
+
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
                   </section>
-                  <div class="scroll">
+                </header>
+                <div class="scroll">
+                  <h4>About Me.</h4>
                 <p>
                 Eniola is a signed BETH model, Entrepreneur and Front-End Developer.She works mainly on beauty, portrait works, fashion editorials and commercial print jobs. Raised in Lagos, she fell in love with modelling after competing at a school pageant that she won a category, and has been doing it professionally ever since. She has worked with different photographers and makeup artists, has done campaigns and worked with companies including CasualBecky and others. Eniola aims to keep following her heart and trust where fate leads her with the goals of expanding her modeling career and continuing to explore the fashion world. <br> <br>
           Outside of modelling, Eniola's passion for technology led her to take her first coding class in 2019. Inspired by code’s creativity and endless possibility, Eniola designed and launched her website in 2020 to empower girls to learn how to code and become leaders in tech. Now in its second year, she is working towards an organization that hosts summer coding camps where girls aged 13 to 18 explore concepts in front-end software engineering. <br> <br>
@@ -44,29 +57,6 @@
         </p>
       </div>
           </section>
-              <footer>
-                <div class="wrapper">  
-                  <a target="_blank" href=" http://www.instagram.com/e_niola"><i class="fa fa-3x fa-instagram"></i></a>   <br>
-                 <a target="_blank" href=" http://www.facebook.com"><i class="fa fa-3x fa-facebook-f"></i></a>   <br> <a target="_blank" href=" http://www.twitter.com/e__niola"><i class="fa fa-3x fa-twitter"></i></a> 
-                <div class="copy">
-                 &copy;  2020 Eniola Arowoshere.All rights reserved.
-                </div>
-        </div>
-      
-        <script src="./js/main.js"></script>
-        <script>
-          document.querySelector("#mobile-icon").addEventListener("click", function(event) {
-            event.preventDefault();
-            document.querySelector('header nav ul').classList.toggle("active");
-          });
-        </script>
-      </footer>
-            <script>
-                  document.querySelector("#mobile-icon").addEventListener("click", function(event) {
-                    event.preventDefault();
-                    document.querySelector('header nav ul').classList.toggle("active");
-                  });
-                </script>
       </body>
       </html>
       
