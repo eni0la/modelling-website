@@ -115,16 +115,16 @@ font-weight: bold;
  .scroll p
 {
   font-family: europa;
-font-size: 1.52em;
-line-height: 1.3em;
+font-size: 1.5em;
+line-height: 1.4em;
 letter-spacing: 0.01em;
 text-align: justify;
+font-weight: normal;
 margin-left: 10%;
 padding-top: 1.5em;
 color: #0a192f;
 margin-right: 10%;
-text-align: left;
-font-weight: normal;
+text-align: center;
 }
 .scroll h5 {
   font-size: 1.5em;
